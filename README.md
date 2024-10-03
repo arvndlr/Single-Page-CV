@@ -1,2 +1,3 @@
-# Single-Page-CV
-A single page CV of me using HTML only showing my educational background, skills, and experience.
+# Arvin Delos Reyes Single-Page-CV
+
+## A structured CV of Arvin M. Delos Reyes using HTML only with essential tags for SEO, OG tags for social media sharing, and a favicon
