@@ -5,35 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="this is a structured single page CV using HTML only"
+      content="CV of Arvin M. Delos Reyes, a Computer Engineering student at STI College with experience in programming, system development, and leadership."
     />
+    <meta property="og:title" content="CV - Arvin M. Delos Reyes" />
+    <meta
+      property="og:description"
+      content="Explore the CV of Arvin M. Delos Reyes, a passionate Computer Engineering student skilled in software development and leadership."
+    />
+    <meta property="og:image" content="/images/formal_Attire.png" />
+    <!-- Add a link to your CV photo or logo -->
+    <!--<meta property="og:url" content="https://yourwebsite.com/yourcv">-->
+    <meta property="og:type" content="website" />
     <link rel="icon" type="image/x-icon" href="/images/fav-icon.png" />
     <title>Arvin's CV</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1,
+      h2 {
+        color: #333;
+      }
+      h1 {
+        font-size: 2em;
+        text-align: left;
+      }
+      .section-title {
+        background-color: #333;
+        color: #fff;
+        padding: 5px;
+      }
+      p {
+        line-height: 1.6;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      ul li {
+        margin-bottom: 10px;
+      }
+      .contact-info,
+      .education,
+      .experience,
+      .skills {
+        margin-bottom: 20px;
+      }
+    </style>
   </head>
   <body>
-    <!--Personal Information-->
-    <hr>
-    <h1>Arvin M. Delos Reyes</h1>
-    <h3>Junior Front End Web Developer</h3>
-    <ul>
-      <li>Santol, Balayan, Batangas</li>
-      <li>09519295420</li>
-      <li>arvin.dlrys@gmail.com</li>
-    </ul>
-    <!--Skills-->
-    <h3>Skills</h3>
-    <p>
-      HTML,CSS,JavaScript,Accessibility,Figma Design,Responsive Web
-      Design,Technical Writing,Presentaion
-    </p>
-    <!--Educational Background-->
-    <h3>Education</h3>
-    <h4>STI College Balayan, INC - Bachelor of Science in Computer Engineering</h4>
-    <p>Sept. 2022 to Present</p>
-    <ul>
-        <li>STI Sports Fest, 2023 - Chess Champion</li>
-        <li>STI Tagisan ng Talino, 2024 - Codefest 1st Runner up</li>
-        <li>Association of Computer Engineering, S.Y. 2023-2024 - Secretary</li>
-    </ul>
+    <section class="container">
+      <!--Personal Information-->
+      <hr />
+      <header>
+        <h1>Arvin M. Delos Reyes</h1>
+        <p>Junior Front End Web Developer</p>
+      </header>
+
+      <!-- Contact Information -->
+      <section class="contact-info">
+        <h2 class="section-title">Contact Information</h2>
+        <ul>
+          <li>Email: arvin.delosreyes@example.com</li>
+          <li>Phone: +63 912 345 6789</li>
+          <li>Location: Balayan, Batangas, Philippines</li>
+          <li>
+            LinkedIn:
+            <a href="https://linkedin.com/in/arvin-delosreyes" target="_blank"
+              >linkedin.com/in/arvin-delosreyes</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <!--Skills-->
+      <section class="skills">
+        <h2 class="section-title">Skills</h2>
+        <p>
+          HTML,CSS,JavaScript,Accessibility,Figma Design,Responsive Web
+          Design,Technical Writing,Presentaion
+        </p>
+      </section>
+
+      <!--Educational Background-->
+      <section class="education">
+        <h2 class="section-title">Education</h2>
+        <h4>
+          STI College Balayan, INC - Bachelor of Science in Computer Engineering
+        </h4>
+        <p>Sept. 2022 to Present</p>
+        <ul>
+          <li>STI Sports Fest, 2023 - Chess Champion</li>
+          <li>STI Tagisan ng Talino, 2024 - Codefest 1st Runner up</li>
+          <li>
+            Association of Computer Engineering, S.Y. 2023-2024 - Secretary
+          </li>
+        </ul>
+      </section>
+
+      <!-- Work Experience -->
+      <section class="experience">
+        <h2 class="section-title">Work Experience</h2>
+        <ul>
+          <li>
+            <strong>Data Entry Clerk</strong> - Apolinar Printing Press, Balayan
+            (2023)
+            <p>
+              Responsible for managing data entries, handling Excel reports, and
+              file management tasks.
+            </p>
+          </li>
+          <li>
+            <strong>Youth Leader</strong> - Sangguniang Kabataan, Brgy. Santol,
+            Balayan (2021 - Present)
+            <p>
+              Managed projects, led a Facebook page, and handled budgeting for
+              community events.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </section>
   </body>
 </html>
