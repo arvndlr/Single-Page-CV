@@ -12,8 +12,11 @@
       property="og:description"
       content="Explore the CV of Arvin M. Delos Reyes, a passionate Computer Engineering student skilled in software development and leadership."
     />
-    <meta property="og:image" content="/images/single-page-cv-delosreyes.jpeg">
-    <meta property="og:url" content="https://yourwebsite.com/yourcv">
+    <meta
+      property="og:image"
+      content="/images/single-page-cv-delosreyes.jpeg"
+    />
+    <meta property="og:url" content="https://yourwebsite.com/yourcv" />
     <meta property="og:type" content="website" />
     <link rel="icon" type="image/x-icon" href="/images/fav-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -37,6 +40,11 @@
         background-color: #fff;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
       }
+      hr {
+        max-width: 80%;
+        margin-left: 0;
+        border: 2px solid black;
+      }
       h1,
       h2 {
         color: #333;
@@ -46,12 +54,14 @@
         text-align: left;
       }
       .section-title {
-        background-color: #333;
-        color: #fff;
+        color: #1eac11;
         padding: 5px;
       }
       p {
         line-height: 1.6;
+      }
+      strong {
+        color: rgb(29, 98, 208);
       }
       ul {
         list-style: none;
@@ -60,7 +70,6 @@
       ul li {
         margin-bottom: 10px;
       }
-      .contact-info,
       .education,
       .experience,
       .skills .accross-platform {
@@ -74,22 +83,17 @@
       <hr />
       <header>
         <h1>Arvin M. Delos Reyes</h1>
-        <p>Junior Front End Web Developer</p>
+        <h3 class="section-title">Junior Front End Web Developer</h3>
       </header>
-
-      <!-- Contact Information -->
-      <section class="contact-info">
-        <h2 class="section-title">Contact Information</h2>
-        <ul>
-          <li>Email: arvin.dlrys@gmail.com</li>
-          <li>Phone: +63 912 345 6789</li>
-          <li>Location: Balayan, Batangas, Philippines</li>
-        </ul>
-      </section>
+      <ul>
+        <li>Balayan, Batangas, Philippines</li>
+        <li>+63 912 345 6789</li>
+        <li>arvin.dlrys@gmail.com</li>
+      </ul>
 
       <!--Skills-->
       <section class="skills">
-        <h2 class="section-title">Skills</h2>
+        <h3 class="section-title">Skills</h3>
         <p>
           HTML, CSS, JavaScript, Accessibility, Figma Design, Responsive Web
           Design, Technical Writing, Presentaion
@@ -98,10 +102,10 @@
 
       <!--Educational Background-->
       <section class="education">
-        <h2 class="section-title">Education</h2>
-        <h4>
+        <h3 class="section-title">Education</h3>
+        <strong>
           STI College Balayan, INC - Bachelor of Science in Computer Engineering
-        </h4>
+        </strong>
         <p>Sept. 2022 to Present</p>
         <ul>
           <li>STI Sports Fest (2023) - Chess Champion</li>
@@ -114,19 +118,21 @@
 
       <!-- Work Experience -->
       <section class="experience">
-        <h2 class="section-title">Work Experience</h2>
+        <h3 class="section-title">Work Experience</h3>
         <ul>
           <li>
-            <strong>Data Entry Clerk</strong> - Apolinar Printing Press, Balayan
-            (april-july 2022)
+            <strong>Data Entry Clerk - Apolinar Printing Press, Balayan</strong>
+            <p>april-july 2022</p>
             <p>
               Responsible for managing data entries, handling Excel reports, and
               file management tasks.
             </p>
           </li>
           <li>
-            <strong>SK Member</strong> - Sangguniang Kabataan, Brgy. Santol,
-            Balayan (2023 - 2025)
+            <strong
+              >SK Member - Sangguniang Kabataan, Brgy. Santol, Balayan</strong
+            >
+            <p>2023-2025</p>
             <p>
               Managed projects, led a Facebook page, and handled budgeting for
               community events.
@@ -135,17 +141,25 @@
         </ul>
       </section>
       <section class="accross-platform">
-        <h2 class="section-title">Across Platform</h2>
+        <h3 class="section-title">Across Platform</h3>
         <ul>
           <li>
             LinkedIn:
             <a href="https://www.linkedin.com/in/arvndlr/" target="_blank"
-              >linkedin.com/in/arvndlr</a
+              >https://linkedin.com/in/arvndlr</a
             >
           </li>
           <li>
             X:
-            <a href="https://x.com/arvndlr" target="_blank">x.com/arvndlr</a>
+            <a href="https://x.com/arvndlr" target="_blank"
+              >https//x.com/arvndlr</a
+            >
+          </li>
+          <li>
+            Github:
+            <a href="https://github.com/arvndlr" target="_blank"
+              >https://github.com/arvndlr</a
+            >
           </li>
         </ul>
       </section>
